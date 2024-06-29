@@ -27,6 +27,8 @@
 
 .subTitle {
   color: #868e96;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Animations */

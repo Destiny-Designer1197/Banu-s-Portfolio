@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -22,11 +22,11 @@ const greeting = {
   title: "Banupriya Valluvan",
   logo_name: "BanupriyaValluvan",
   subTitle:
-    " Skilled full stack developer adept at creating seamless user experiences and architecting scalable backend systems. Proficient in HTML, CSS, JavaScript, Python, Node.js. Passionate about collaborating with diverse teams to deliver exceptional digital solutions.",
+    " Skilled full stack developer adept at creating seamless user experiences and building scalable backend systems. Proficientin  Javascript and its frameworks (React, Express, Node, Typescript, Vue),DeepLearning Frameworks(Tensorflow, Pytorch). Passionate about collaborating with diverse teams to deliver exceptional digital solutions.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
+    "https://drive.google.com/file/d/1wQXUwKCbj9c0a3kLdjcnOG7vx9RcbD4o/view?usp=sharing",
   portfolio_repository:
-    "https://github.com/Destiny-Designer1197/masterPortfolio",
+    "https://github.com/Destiny-Designer1197/Banu-s-Portfolio",
   githubProfile: "https://github.com/Destiny-Designer1197",
 };
 
@@ -354,6 +354,18 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Data Science Research Intern",
+          company: "itemis AG",
+          company_url: "https://www.itemis.com/",
+          logo_path: "itemis.png",
+          duration: "December 2022 - April 2023",
+          location: "Stuttgart,Germany",
+          description:
+            "Conducted comprehensive analysis of traceability graphs, utilizing diverse NLP techniques for enhanced interpretability and effective analysis of evolution patterns and artifact relationships",
+          color: "#ee3c26",
+        },
+
+        {
           title: "Associate Trainee",
           company: "Cognizant Technology Solutions",
           company_url: "https://careers.cognizant.com/in/",
@@ -365,17 +377,7 @@ const experience = {
               effectively communicating trends, patterns, and projections derived from relevant data.Spearheaded the design and upkeep of data systems and databases, employing SQL and Oracle Database for efficient management. ",
           color: "#fc1f20",
         },
-        {
-          title: "Data Science Research Intern",
-          company: "itemis AG",
-          company_url: "https://www.itemis.com/",
-          logo_path: "itemis.png",
-          duration: "December 2022 - April 2023",
-          location: "Stuttgart,Germany",
-          description:
-            "Conducted comprehensive analysis of traceability graphs, utilizing diverse NLP techniques for enhanced interpretability and effective analysis of evolution patterns and artifact relationships",
-          color: "#ee3c26",
-        },
+      
       ],
     },
   ],
@@ -385,7 +387,8 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "I have extensive experience creating numerous projects using JavaScript frameworks. My expertise spans full-stack development, web development, and data science with Python.\
+     I'm enthusiastic about collaborating with like-minded individuals on innovative projects.",
   avatar_image_path: "projects.png",
 };
 
@@ -425,9 +428,9 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "cropped.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I'm currently seeking full-time employment opportunities and am enthusiastic about the possibility of collaborating with like-minded individuals.I possess strong skills in full-stack /web / front-end development.",
   },
   blogSection: {
     title: "Blogs",
@@ -438,14 +441,12 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "Stadtmitte Stuttgart",
+    locality: "Stuttgart",
+    country: "Germany",
+    postalCode: "70180",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://www.google.de/maps/place/Stadtmitte/@48.7754315,9.1714108,17z/data=!4m10!1m2!2m1!1sstadtmitte!3m6!1s0x4799db49cc4860a5:0xc6c0e9fbf6c74aae!8m2!3d48.774827!4d9.1722532!15sCgpzdGFkdG1pdHRlkgENdHJhaW5fc3RhdGlvbuABAA!16s%2Fg%2F11vmb3q89_?entry=ttu",
   },
   phoneSection: {
     title: "",
